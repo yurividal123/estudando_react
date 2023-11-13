@@ -1,14 +1,10 @@
 import './Perfil/perfil.css'
 
-const Perfil = () => {
-    const usuario = {
-        nome: 'Yuri Vidal',
-        avatar: 'https://github.com/yurividal123.png'
-    }
+const Perfil = ({ endereco, nome }) => {
     return (
         <div>
-            <img className='perfil-avatar' src={usuario.avatar} />
-            <h3 className='perfil-titulo'>{usuario.nome}</h3>
+            <img className='perfil-avatar' src={endereco} />
+            <h3 className='perfil-titulo'>{nome}</h3>
         </div>
     )
 }
