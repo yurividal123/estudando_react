@@ -2,6 +2,7 @@ import { useState } from "react";
 
 import Perfil from "./components";
 import Formulario from "./components/formukario";
+import ReposList from "./components/ReposList";
 
 
 
@@ -12,7 +13,7 @@ function App() {
   return (
     <>
     <Perfil nome="Yuri" endereco="https://github.com/yurividal123.png" />
-
+    <ReposList />
     {formularioEstaVisivel && (
       <Formulario />
     )}

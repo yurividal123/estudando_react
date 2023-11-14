@@ -7,7 +7,7 @@ const Formulario = () => {
     let [nome, setNome] = useState('');
 
     useEffect(() => {
-        console.log("o estado nome mudou");
+        console.log("o estado nome  mudou");
     }, [nome])
 
     const alteraNome = (evento) => {
