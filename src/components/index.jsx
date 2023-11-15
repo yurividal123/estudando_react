@@ -1,4 +1,4 @@
-import styles from './Perfil/PErfil.module.css'
+import styles from '../components/Perfil/Perfil.module.css'
 
 const Perfil = ({ nomeUsuario }) => {
     return (
